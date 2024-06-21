@@ -1,3 +1,14 @@
 {
-  "java.configuration.updateBuildConfiguration": "automatic"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#4ba50a",
+    "sideBar.border": "#4ba50a",
+    "statusBar.background": "#357507",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#4ba50a",
+    "statusBarItem.remoteBackground": "#357507",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "tab.activeBorder": "#4ba50a"
+  },
+  "peacock.color": "#357507"
 }
