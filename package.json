@@ -1,6 +1,6 @@
 {
-  "name": "@capacitor-community/barcode-scanner",
-  "version": "6.0.0",
+  "name": "@aptic/capacitor-barcode-scanner",
+  "version": "6.0.0-beta.0",
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,16 +11,16 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityBarcodeScanner.podspec"
+    "ApticCapacitorBarcodeScanner.podspec"
   ],
-  "author": "tafelnl",
+  "author": "Aptic",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/capacitor-community/barcode-scanner.git"
+    "url": "git+https://github.com/aptic/capacitor-barcode-scanner.git"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/barcode-scanner/issues"
+    "url": "https://github.com/aptic/capacitor-barcode-scanner/issues"
   },
   "keywords": [
     "capacitor",
@@ -79,7 +79,7 @@
       "dist/**/*"
     ]
   },
-  "homepage": "https://github.com/capacitor-community/barcode-scanner#readme",
+  "homepage": "https://github.com/aptic/capacitor-barcode-scanner",
   "directories": {
     "example": "examples"
   },
