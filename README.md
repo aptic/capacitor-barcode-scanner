@@ -2,34 +2,16 @@
 <h3 align="center">Barcode Scanner</h3>
 <p align="center"><strong><code>@aptic/capacitor-barcode-scanner</code></strong></p>
 <p align="center">
-  A fast and efficient (QR) barcode scanner for Capacitor.
+  A fast and efficient QR and barcode scanner for Capacitor. <br/>Based on the work done at <a target="_blank" href="https://github.com/capacitor-community/barcode-scanner">@capacitor-community/barcode-scanner</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/maintenance/no/2023?style=flat-square" />
-  <a href="https://www.npmjs.com/package/@aptic/capacitor-barcode-scanner"><img src="https://img.shields.io/npm/l/@aptic/capacitor-barcode-scanner?style=flat-square" /></a>
-<br>
-  <a href="https://www.npmjs.com/package/@aptic/capacitor-barcode-scanner"><img src="https://img.shields.io/npm/dw/@aptic/capacitor-barcode-scanner?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@aptic/capacitor-barcode-scanner"><img src="https://img.shields.io/npm/v/@aptic/capacitor-barcode-scanner?style=flat-square" /></a>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors-"><img src="https://img.shields.io/badge/all%20contributors-1-orange?style=flat-square" /></a>
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-</p>
 
 ## Table of Contents
 
-- [Maintainers](#maintainers)
 - [About](#about)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
-
-## Maintainers
-
-| Maintainer | GitHub                                | Active |
-| ---------- | ------------------------------------- | ------ |
-| thegnuu    | [thegnuu](https://github.com/thegnuu) | no     |
-| tafelnl    | [tafelnl](https://github.com/tafelnl) | no     |
 
 ## About
 
@@ -43,15 +25,7 @@ On **Web** this library uses [`zxing/browser`](https://github.com/zxing-js/brows
 
 ### Note on supported Capacitor versions
 
-`v5.x.x-beta.x` pre-release based on ML-Kit that supports Capacitor `v5.x`
-
-`v4.x` supports Capacitor `v5.x`
-
-`v3.x` supports Capacitor `v4.x`
-
-`v2.x` supports Capacitor `v3.x`
-
-`v1.x` supports Capacitor `v2.x`
+`v6.x` supports Capacitor `v6.x`
 
 All releases of this package can be found on [npm](https://www.npmjs.com/package/@aptic/capacitor-barcode-scanner?activeTab=versions) and on [GitHub Releases](https://github.com/capacitor-community/barcode-scanner/releases)
 
@@ -572,11 +546,4 @@ It could mean that you have missed a step by the [plugin configuration](#install
 
 #### I did the configuration correctly
 
-please [open an issue](https://github.com/capacitor-community/barcode-scanner/issues/new/choose)
-
-## TODO
-
-A non-exhaustive list of todos:
-
-- Support for switching between cameras
-- Support for web
+please check if there is an open [issue](https://github.com/aptic/capacitor-barcode-scanner/issues) and if not, create a new one.
