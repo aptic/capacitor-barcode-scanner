@@ -3,7 +3,25 @@ import Foundation
 import AVFoundation
 
 @objc(BarcodeScanner)
-public class BarcodeScanner: CAPPlugin, AVCaptureMetadataOutputObjectsDelegate {
+public class BarcodeScanner: CAPPlugin, AVCaptureMetadataOutputObjectsDelegate, CAPBridgedPlugin {
+    public let identifier = "BarcodeScanner"
+    public let jsName = "BarcodeScanner"
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(name: "prepare", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "hideBackground", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "showBackground", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "startScan", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "startScanning", returnType: CAPPluginReturnCallback),
+        CAPPluginMethod(name: "stopScan", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "pauseScanning", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "resumeScanning", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "checkPermission", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "openAppSettings", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "enableTorch", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "disableTorch", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "toggleTorch", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "getTorchState", returnType: CAPPluginReturnPromise),
+    ]
 
     class CameraView: UIView {
         var videoPreviewLayer:AVCaptureVideoPreviewLayer?
